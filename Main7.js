@@ -1,4 +1,4 @@
-console.log("This is Strings Tutorial.");
+console.log("This is Strings.");
 let a = "Himanshu";
 console.log(a[0]);
 console.log(a[1]);
@@ -9,8 +9,8 @@ console.log(a[4]);
 console.log(a.length);
 let real_name = "Himanshu";
 let friend = "Divya";
-console.log("His Name is " + real_name + " and his Friends Name is " + friend);
-console.log(`His Name is ${real_name} and his Friends Name is ${friend}`);
+console.log("His Name is " + real_name + " and his Friends Name is ." + friend);
+console.log(`His Name is ${real_name} and his Friends Name is .${friend}`);
 let b = "Valtryek";
 console.log(b.toUpperCase());
 console.log(b.toLowerCase());

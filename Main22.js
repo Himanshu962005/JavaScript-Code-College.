@@ -11,6 +11,6 @@ function doubleTrouble(arr) {
     };
     return result;
 };
-console.log(doubleTrouble([1, 2, 2, 3]));
-console.log(doubleTrouble([4, 4, 4, 5]));
-console.log(doubleTrouble([1, 2, 3]));
+console.log(doubleTrouble([1, 2, 2, 3]));    // Output : [ 2, 4, 2, 6 ].
+console.log(doubleTrouble([4, 4, 4, 5]));    // Output : [ 8, 4, 4, 10 ].
+console.log(doubleTrouble([1, 2, 3]));       // Output : [ 2, 4, 6 ].

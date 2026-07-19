@@ -1,0 +1,42 @@
+<!-- Problems for Sigma Developers. -->
+<!-- Q14.The Window Scroller : You are Developing a Single-Page Application with a Smooth Scrolling Effect. Implement a Function Named SmoothScrollToTop that Smoothly Scrolls the Window to the Top when Called. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Legendary Coder.</title>
+    <style>
+        body {
+            height: 3000px;
+            font-family: Arial, sans-serif;
+        }
+
+        button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Scroll Down 👇</h1>
+    <p>Go to the Bottom of the Page, then Click the Button.</p>
+    <button onclick="smoothScrollToTop()">
+        Scroll To Top
+    </button>
+    <script>
+        function smoothScrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+    </script>
+</body>
+
+</html>

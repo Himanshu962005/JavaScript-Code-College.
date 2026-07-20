@@ -1,0 +1,26 @@
+<!-- Q.Write a Script to Demonstrate Data Validation. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Legendary Coder.</title>
+</head>
+
+<body>
+    <script>
+        let input = prompt("Enter Your Age :");
+        if (input === "" || input === null) {
+            console.log("Input Cannot Be Empty.");
+        } else if (isNaN(input)) {
+            console.log("Please Enter a Valid Number.");
+        } else if (input < 0) {
+            console.log("Age Cannot Be Negative.");
+        } else {
+            console.log("Valid Age :", input);
+        };
+    </script>
+</body>
+
+</html>
